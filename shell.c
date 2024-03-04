@@ -31,7 +31,7 @@ int main() {
 	// main loop
     while (should_run) {
 		// promt the user
-        printf("[4061-shell]%s$ ", getcwd(NULL, 0)); 
+        printf("[shell]%s$ ", getcwd(NULL, 0)); 
         fflush(stdout);
 
         // read input
