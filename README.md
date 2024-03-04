@@ -15,9 +15,17 @@ make
 After compiling, you can run the shell executable:
 ```
 ./shell
-
+[C-shell]/Users/path/to/repo/C-shell$
 ```
 From there, you can use the implemented commands within this custom shell environment.
+
+```
+[C-shell]/Users/path/to/repo/C-shell$ ls -R \path/to/dir
+```
+
+```
+[C-shell]/Users/path/to/repo/C-shell$ ls -R | wc > out.txt
+```
 
 ## Contributing
 Contributions are welcome! Please feel free to submit pull requests or open issues for any improvements or bug fixes.
